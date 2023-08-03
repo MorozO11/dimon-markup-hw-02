@@ -1,5 +1,6 @@
-body {
-    background-color: #FFF;
+.body {
+    font-family: Roboto;
+    color: #212121;
 }
 
 ul {
@@ -10,56 +11,56 @@ ul {
 
 
 
-/* ------------------------Heder-------------------------------- */
-.logo__header {
-    color: #000;
-    font-size: 26px;
-    font-weight: 700;
-}
 
-.logo {
+
+/* ------------------------Heder-------------------------------- */
+.heder__logo {
     color: #2196F3;
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
     font-family: Raleway;
+}
+
+.heder__logo span {
+    color: #212121;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
     letter-spacing: 0.78px;
 
 }
 
-.nav__link--active {
-    color: #2196F3;
-    font-family: Roboto;
-    font-size: 14px;
+.nav__link {
     font-weight: 500;
     letter-spacing: 0.28px;
     text-decoration: none;
+    color: #212121;
+
+
 
 }
 
-.nav__link {
-    font-size: 14px;
-    font-weight: 500;
-    font-family: Roboto;
-    color: #212121;
-    letter-spacing: 0.28px;
+.nav__link:hover{
+    color: #2196F3;
 }
 
 .nav__link--contakt {
     color: #757575;
-    font-size: 14px;
     font-weight: 500;
-    font-family: Roboto;
     letter-spacing: 0.28px;
     text-decoration: none;
-
-
 }
 
+.nav__link--contakt:hover{
+    color: #2196F3;
+
+}
 /* -----------------------MAIN--------------------------- */
 
 .herow {
-    background-color: #212121;
+    background: #2F303A;
+
 }
 
 .herow__article {
@@ -67,10 +68,9 @@ ul {
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 60px;
-    /* 136.364% */
+    line-height: 136.364% ;
+    /* 60px*/
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
@@ -78,21 +78,16 @@ ul {
 .button {
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 30px;
-    /* 187.5% */
+    line-height: 187.5%;
+    /* 30px */
     letter-spacing: 0.96px;
     background-color: #2196F3;
+    cursor: pointer;
 }
 
 .item {
-    color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
@@ -100,21 +95,14 @@ ul {
 
 .item__text {
     color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
+    line-height: 171.429%;
+    /* 24px */
     letter-spacing: 0.42px;
 }
 
 .title {
-    color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
@@ -123,40 +111,46 @@ ul {
 
 /* ---------------FOOTER---------------------------- */
 .footer {
-    background-color: #212121;
+    background: #2F303A;
 }
 
 .address {
     color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
+    line-height: 171.429% ;
+    /*24px */
     letter-spacing: 0.42px;
+    font-style: normal;
+
 
 }
 
-.logo__footer {
-    color: #FFF;
+.footer__logo {
+    color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
     text-decoration: none;
+}
 
+.footer__logo span {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px
 }
 
 .nav__link--footer {
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
+    line-height: 171.429%;
+    /* 24px */
     letter-spacing: 0.42px;
+    text-decoration: none;
+}
+.nav__link--footer:hover {
+    color: #2196F3;
+
 }
