@@ -139,7 +139,7 @@ button:focus {
 }
 
 .address {
-    color:var(--adres-taxt-color);
+    color:var(--adres-text-color);
     line-height: 171.429%;
     /*24px */
     letter-spacing: 0.42px;
